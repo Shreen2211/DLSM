@@ -1,0 +1,32 @@
+class EndPoint {
+  static const String baseUrl = 'http://192.168.100.71:8000/api/';
+  static const String login = 'login';
+  static const String register = 'register';
+  static const String request = 'requests-create';
+  static const String allRequest = 'requests';
+  static const String offers = 'offers';
+  static const String offersForSpecificRequest = 'offers/request';
+  static const String offer = 'offers-create';
+  static const String dataUser = 'myData';
+  static const String agent = 'agents-create';
+  static const String shippingAgent = 'ShippingAgent';
+  static const String agents = 'agents';
+  static const String agentDelete = 'agents/destroy';
+  static const String countries = 'Countries';
+  static const String clients = 'All_Clients';
+  static const String posts = 'posts-create';
+  static const String allPosts = 'posts';
+  static const String deletePost = 'posts-destroy';
+  static const String editPost = 'posts-update';
+  static const String searchShipping = 'shipping-search';
+  static const String offerAccept = 'offer-accept';
+  static const String onTrip = 'updateOn_trip';
+  static const String done = 'updateDone';
+  static const String tracking = 'updateTrucking';
+  static const String customClear = 'updateCustom_clearance';
+  static const String booking = 'updateBooking';
+  static const String loading = 'updateLoading';
+  static const String current = 'current_Process';
+  static const String feedback = 'feedback-create';
+  static const String getFeedbackShipping = 'FeedbackByShippingCompanyId';
+}
